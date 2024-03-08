@@ -1,0 +1,229 @@
+/*Celular*/
+    .login{
+        margin: auto;
+        padding: 30px;
+        background-color: var(--grisClaro);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px
+    }
+    
+    .login .nombre{
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .login .nombre label{
+        color: var(--grisOscuro);
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    
+    .login .nombre input{
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+        border: white;
+        border-radius: 5px;
+    }
+    
+    .login .contraseña{
+        text-align: center;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    .login .contraseña label{
+        position: absolute;
+        color: var(--grisOscuro);
+        top: 10px;
+        left: 10px;
+    }
+    
+    .login .contraseña input{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: white;
+        border-radius: 4px;
+    }
+    
+    .login .enviar{
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .login .enviar input{
+        width: 98%;
+        background-color: var(--celeste);
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 6px;
+        text-align: center;
+        height: 36px;
+        font-size: larger;
+    }
+
+    .login .enviar input:hover {
+        background-color: rgb(0, 2, 128);
+    }
+
+
+/*tablet*/
+@media (min-width: 361px) {
+    .login{
+        margin: auto;
+        padding: 30px 100px;
+        background-color: var(--grisClaro);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px
+    }
+    
+    .login .nombre{
+        text-align: center;
+        position: relative;
+        margin-bottom: 34px;
+    }
+    
+    .login .nombre label{
+        color: var(--grisOscuro);
+        position: absolute;
+        top: 10px;
+        left: 10px;}
+    
+    .login .nombre input{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: white;
+        border-radius: 5px;
+    }
+    
+    .login .contraseña{
+        text-align: center;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    .login .contraseña label{
+        position: absolute;
+        color: var(--grisOscuro);
+        top: 10px;
+        left: 10px;
+    }
+    
+    .login .contraseña input{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        border: white;
+        border-radius: 4px;
+    }
+    
+    .login .enviar{
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .login .enviar input{
+        width: 98%;
+        background-color: var(--celeste);
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 6px;
+        text-align: center;
+        height: 36px;
+        font-size: larger;
+    }
+
+    .login .enviar input:hover {
+        background-color: rgb(0, 2, 128);
+    }
+}
+
+/*Desktop*/
+@media (min-width: 769px){
+    .login{
+        margin: auto;
+        padding: 25px;
+        background-color: var(--grisClaro);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px
+    }
+    
+    .login .nombre{
+        position: relative;
+        display: block;
+        border: none;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        color: var(--grisOscuro);
+    }
+    
+    .login .nombre label{
+        color: var(--grisOscuro);
+        position: absolute;
+        left: 10px;
+        }
+    
+    .login .nombre input{
+        padding: 15px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        width: 65%;
+        text-align: justify;
+        font-size: 19px;
+        color: var(--grisOscuro);
+    }
+    
+    .login .contraseña{
+        position: relative;
+        border: none;
+        border-radius: 8px;
+        background-color: #fff;
+        margin-bottom: 25px;
+        color: var(--grisOscuro);
+    }
+    
+    .login .contraseña label{
+        color: var(--grisOscuro);
+        position: absolute;
+        left: 10px;
+    }
+    
+    .login .contraseña input{
+        padding: 15px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: none;
+        width: 65%;
+        text-align: justify;
+        font-size: 19px;
+        color: var(--grisOscuro);
+    }
+    
+    .login .enviar{
+        text-align: center;
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .login .enviar input{
+        width: 98%;
+        background-color: var(--celeste);
+        color: #ffffff;
+        cursor: pointer;
+        border-radius: 6px;
+        text-align: center;
+        height: 36px;
+        font-size: larger;
+    }
+
+    .login .enviar input:hover {
+        background-color: rgb(0, 2, 128);
+    }
+}
